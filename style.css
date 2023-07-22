@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+* {
+    font-family: 'Hind', sans-serif;
+}
+
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("../images/bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle {
+    font-size: 4rem;
+}
+.bannerDesc {
+    font-size: 2rem;
+}
+.card {
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #fe4885;
+    border: 3px solid #bef355;
+}
+
+.bicon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover {
+    border: 3px solid yellowgreen;
+}
+.card-img-top {
+    height: 50vh;
+}
